@@ -552,6 +552,19 @@ pre code {
   margin-left: auto;
 }
 
+.container-about,
+.container-about-fluid,
+.container-about-xl,
+.container-about-lg,
+.container-about-md,
+.container-about-sm {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
