@@ -57,7 +57,7 @@
     $('.portfolio-box').magnificPopup({
         delegate: 'a',
         type: 'image',
-        tLoading: 'Loading image #%curr%...',
+        tLoading: 'Loading modal',
         mainClass: 'mfp-img-mobile',
         gallery: {
             enabled: true,
@@ -65,7 +65,7 @@
             preload: [0, 1]
         },
         image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+            tError: 'Modal could not be loaded.'
         }
     });
 
