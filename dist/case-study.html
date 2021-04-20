@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Case Study</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="case-study">
+      <h1>Case Study for MyFlix Full-Stack Project</h1>
+      <div class="intro">
+        <div class="intro-content">
+          <h2>Overview</h2>
+          <p>
+            myFlix is a web application for movies.  myFlix provides registered users with access to information about different movies, directors, and genres.
+            The app is built using the MERN stack (MongoDB, Express, React, and Node.js).  The server-side of the application, including the server, business logic,
+            and business layer, was built first. The client side was built with React, and was built in the form of a single-page responsive application.  
+          </p>
+          
+          <h2>Purpose & Context</h2>
+          <p>
+            The purpose of the project was to build a complete web application (client-side and server-side) in order to demonstrate mastery of full stack JavaScript development.
+            This project was built for the CareerFoundry Full Stack Immersion course.  The intention of the project was to teach that both front-end and back-end are important skills
+            to have as a JavaScript developer; developing a project using the MERN stack was the way to teach such a lesson.
+          </p>
+          <p>
+            Later on, a second client-side was built with Angular, as an introduction to the Angular framework.
+          </p>
+          
+          <h2>Objective</h2>
+          <p>
+            One objective of the myFlix project is to build a full web application, both the client-side and the server-side.  Another objective was to include a 
+            comprehensive project for my portfolio website.
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <div>
+            <img src="assets/img/case-study/Snip4_angularApp.PNG" alt="screenshot of movie app">
+          </div>
+        </div>
+      </div>
+
+      <h2 class="approach-title">Approach</h2>
+
+      <div class="server-side">
+        <div class="server-content">
+          <h3>Server-Side</h3>
+          <p>
+            I built the API using Node.js and Express.  I implemented REST architecture and defined HTTP endpoints for the API.  I used MongoDB in order to build the 
+            non-relational database for all movie data.  Business logic was modeled using Mongoose, and authentication/authorization was implemented using basic HTTP 
+            authentication and JWT authentication.  Data validation logic was incorporated into the API.   Finally, I hosted the project on the web with Heroku.
+          </p>
+          
+          <br>
+          <p>
+            <a href="https://github.com/cc743/movie-api">View Endpoints (Github README)</a>
+          </p>
+          <br>
+          
+          <p>
+            As can be seen in the server-side screenshot, I used Postman to test the API; this includes all HTTP requests implemented in the API, 
+            such as GET, POST, PUT, and DELETE requests.
+          </p>
+        </div>
+
+        <div class="server-img">
+          <div>
+            <img src="assets/img/case-study/Snip3_bearerToken.PNG" alt="screenshot of Postman">
+          </div>
+        </div>
+      </div>
+
+      <div class="client-side">
+        <div class="client-content">
+          <h3>Client-Side</h3>
+          <p>
+            React was chosen as the library to best implement the client-side as a responsive, single-page application with a polished user experience.  The client-side 
+            interface allows users to properly make requests to, and receive responses from, the server-side.  I implemented state-routing to navigate between all views and 
+            share URLs.  The app’s features includes a main-view, a single movie view, a profile view, a filtering tool to filter movies by title, and the ability for the user 
+            to add and remove films from the user’s list of favorite movies.  
+          </p>
+        </div>
+
+        <div class="client-img">
+          <div>
+            <img src="assets/img/case-study/welcomePage_snip.PNG" alt="screenshot of welcome page">
+          </div>
+          <div>
+            <img src="assets/img/case-study/movieView_snip.PNG" alt="screenshot of movie view">
+          </div>
+          <div>
+            <img src="assets/img/case-study/Snip7_myFlixReactProfileView.PNG" alt="screenshot of profile view">
+          </div>
+        </div>
+      </div>
+
+      <div class="challenges">
+        <h2>Challenges</h2>
+        <p>
+          On the server-side, the main problems I faced were with Mongo.  My first approach to setting up Mongo was to install MongoDB via Ubuntu.  This proved to be 
+          troublesome; when consulting with my tutor and other students, many had trouble making Mongo work with Ubuntu on Windows.  Thus, I was forced to take a different 
+          approach; setting up the database directly on MongoDB Atlas, an online service in which I can create, and host, databases. 
+        </p>
+        <p>
+          On the client-side, I faced challenges more so on understanding and then implements React concepts, as I was learning React for the first time. I faced challenges with 
+          app routing in React and in implementing Redux.  However, extensive help from my tutor and mentor helped me in overcoming challenges learning React.
+        </p>
+      </div>
+
+      <div class="duration">
+        <h2>Duration</h2>
+        <p>
+          Development of the server-side took approximately 3 weeks. Development was lengthened by trouble with setting up MongoDB; a different approach than originally expected 
+          had to be taken.
+        </p>
+        <p>
+          Development of the client-side took approximately 3 weeks.  I faced challenges in learning and developing with React for the first time.  However, I received plenty of 
+          support from my course mentor and tutor.  In particular, I want to credit my mentor for providing various pair-programming sessions during this period.  What resulted is a 
+          fully developed client-side in quicker time than I expected.
+        </p>
+      </div>
+
+      <div class="credits">
+        <h2>Credits</h2>
+        <ul>
+          <li>Role: Lead Developer</li>
+          <li>Tutor: Jackson Lee</li>
+          <li>Mentor: John Behan</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
